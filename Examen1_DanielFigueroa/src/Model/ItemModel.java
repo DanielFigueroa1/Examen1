@@ -38,6 +38,14 @@ public class ItemModel implements Comparable <ItemModel> {
 		app.text(foto ,x+540, y);
 	}
 
+	public String getFoto() {
+		return foto;
+	}
+
+	public void setFoto(String foto) {
+		this.foto = foto;
+	}
+
 	public String getNombre() {
 		return nombre;
 	}

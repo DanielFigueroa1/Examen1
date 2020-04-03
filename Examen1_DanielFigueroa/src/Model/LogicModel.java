@@ -81,7 +81,7 @@ public void mouse() {
 		
 		for (int i = 0; i < items.size(); i++) {
 			ItemModel a = items.get(i);
-			datos[i]=(+a.getNombre().toLowerCase()+","+a.getAnoEstreno()+","+a.getRating()+","+a.getTipo()+","+a.getFoto()); 
+			datos[i]=(a.getNombre().toLowerCase()+","+a.getAnoEstreno()+","+a.getRating()+","+a.getTipo()+","+a.getFoto()); 
 			} app.saveStrings("/data/ListaNueva.txt",datos);
 		}
 	}
